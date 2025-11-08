@@ -1,6 +1,6 @@
 class AwsSsmConnect < Formula
   desc "Interactive CLI tool for SSM access via AWS SSO"
-  homepage "https://github.com/nkarisa/aws-ssm-connect"
+  homepage "https://github.com/nkarisa/homebrew-aws-ssm-connect"
   version "v1.0.0"
 
   # Specify the URL for the source archive (usually a tarball of the release)
