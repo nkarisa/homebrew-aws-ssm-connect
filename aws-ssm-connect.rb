@@ -13,7 +13,7 @@ class AwsSsmConnect < Formula
 
   def install
     # Build the binary using the version tag
-    system "go", "build", "-ldflags", "-s -w", "-o", bin/"ec2-lister", "."
+    system "go", "build", "-ldflags", "-s -w", "-o", bin/"aws-ssm-connect", "."
   end
 
   # Test that the binary runs and displays help text
