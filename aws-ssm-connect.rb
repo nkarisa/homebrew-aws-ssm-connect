@@ -1,4 +1,4 @@
-class AWSSSMConnect < Formula
+class AwsSsmConnect < Formula
   desc "Interactive CLI tool for SSM access via AWS SSO"
   homepage "https://github.com/nkarisa/aws-ssm-connect"
   version "v1.0.0"
