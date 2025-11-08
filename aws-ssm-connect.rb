@@ -4,9 +4,9 @@ class AwsSsmConnect < Formula
   version "v1.0.0"
 
   # Specify the URL for the source archive (usually a tarball of the release)
-  url "https://github.com/nkarisa/homebrew-aws-ssm-connect/aws-ssm-connect"
+  url "https://github.com/nkarisa/aws-ssm-connect/archive/v1.0.0.tar.gz"
   # Replace with the actual SHA-256 hash of your v1.0.0 tarball
-  sha256 "ce8e07cc2c5e7cca90d0b6e4c1989fdca73d94730db8271d168a89f7dfb37c81"
+  sha256 "7c151c74a016b0e41308f61425571563f7447778"
 
   # Go is used to build the source code
   depends_on "go" => :build
